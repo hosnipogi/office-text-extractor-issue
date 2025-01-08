@@ -1,5 +1,10 @@
 # Reproduce Issue
 
+- `npm install`
+- `npm run dev -- --turbo`
+
+## Or Recreate Manually From Start
+
 - `npx create-next-app@14 test-app`
 - `npm install office-text-extractor`
 - create a client button component and server action which uses `office-text-extractor`
